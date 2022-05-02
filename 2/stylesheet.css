@@ -18,6 +18,8 @@ a {
   background-image: url(https://prog-8.com/images/html/advanced/top.png);
   background-size: cover;
   color: white;
+  /* text-alignをcenterに指定してください */
+  text-align: center;
 }
 
 .top-wrapper h1 {
@@ -30,42 +32,38 @@ a {
   opacity: 0.7;
 }
 
-/* btnクラスのCSSを指定してください */
 .btn {
   padding: 8px 24px;
   color: white;
   display: inline-block;
   opacity: 0.8;
+  /* border-radiusを4pxに指定してください */
+  border-radius: 4px;
+}
+
+/* btnクラスにhoverしたときのCSSを指定してください */
+.btn:hover {
+  opacity: 1;
 }
 
 
-/* signupクラスのCSSを指定してください */
 .signup {
   background-color: #239b76;
 }
 
-
-/* facebookクラスのCSSを指定してください */
 .facebook {
   background-color: #3b5998;
   margin-right: 10px;
 }
 
-
-/* twitterクラスのCSSを指定してください */
 .twitter {
   background-color: #55acee;
 }
 
-
-/* btn-wrapperクラスのCSSを指定してください */
 .btn-wrapper {
   margin: 20px 0;
 }
 
-
-/* btn-wrapperクラスの中にある<p>のCSSを指定してください */
 .btn-wrapper p {
   margin: 10px 0;
 }
-
