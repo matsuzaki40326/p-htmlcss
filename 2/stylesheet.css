@@ -31,16 +31,12 @@ a {
   opacity: 0.7;
 }
 
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
+.btn-wrapper {
+  margin: 20px 0;
 }
 
-.btn:hover {
-  opacity: 1;
+.btn-wrapper p {
+  margin: 10px 0;
 }
 
 .signup {
@@ -56,17 +52,32 @@ a {
   background-color: #55acee;
 }
 
-.btn-wrapper {
-  margin: 20px 0;
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
 }
 
-.btn-wrapper p {
-  margin: 10px 0;
+.btn:hover {
+  opacity: 1;
 }
 
-/* faクラスのmargin-rightを5pxに指定してください */
 .fa {
   margin-right: 5px;
 }
 
+/* <header>のCSSを指定してください */
+header {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+
+/* logoクラスのCSSを指定してください */
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
 
