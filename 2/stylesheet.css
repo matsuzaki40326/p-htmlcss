@@ -79,21 +79,26 @@ header {
   margin-top: 20px;
 }
 
-/* header-leftクラスのCSSを指定してください */
 .header-left {
   float: left;
 }
 
-
-/* header-rightクラスのCSSを指定してください */
 .header-right {
   float: right;
   background-color: rgba(255, 255, 255, 0.3);
+  /* transitionを指定してください */
+  transition: all 0.5s;
 }
 
-
-/* header-rightクラスにhoverしたときのCSSを指定してください */
 .header-right:hover {
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* header-rightの中の<a>のCSSを指定してください */
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
 }
 
