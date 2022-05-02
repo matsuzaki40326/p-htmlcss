@@ -102,3 +102,28 @@ header li {
 .formbox {
   margin-bottom: 30px;
 }
+
+footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+footer p {
+  font-size: 32px;
+  float: left;
+}
+
+footer ul {
+  float: right;
+}
+
+footer li {
+  padding-bottom: 20px;
+}
+
+.submitbtn {
+  background-color: #dee7ec;
+  color: #889eab;
+}
