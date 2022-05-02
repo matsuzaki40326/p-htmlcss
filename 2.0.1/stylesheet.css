@@ -75,3 +75,30 @@ header li {
   padding-top: 30px;
   font-size: 24px;
 }
+
+.form {
+  padding-bottom: 100px;
+  margin: 0 80px;
+}
+
+.form h3 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  border-bottom: solid 2px #dee7ec;
+}
+
+.form p {
+  padding-bottom: 10px;
+}
+
+.form input,textarea {
+  border: 1px solid #dee7ec;
+  padding: 20px;
+  width: 400px;
+  font-size: 18px
+}
+
+.formbox {
+  margin-bottom: 30px;
+}
