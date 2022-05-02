@@ -100,24 +100,25 @@ header {
   display: block;
 }
 
-/* lesson-wrapperクラスのCSSを指定してください */
 .lesson-wrapper {
   height: 500px;
   padding-bottom: 80px;
   background-color: #f7f7f7;
 }
 
-
-/* headingクラスのCSSを指定してください */
 .heading {
   padding-top: 60px;
   padding-bottom: 30px;
   color: #5f5d60;
 }
 
-
-/* headingの中の<h2>のCSSを指定してください */
 .heading h2 {
   font-weight: normal;
+}
+
+/* lessonクラスのCSSを指定してください */
+.lesson {
+  float: left;
+  width: 25%;
 }
 
