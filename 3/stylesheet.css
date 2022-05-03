@@ -1,3 +1,8 @@
+/* すべての要素に対して box-sizing: border-box; を指定してください */
+* {
+  box-sizing: border-box;
+}
+
 .container {
   margin: 20px;
 }
@@ -5,6 +10,9 @@
 .item {
   width: 25%;
   float: left;
+  /* 左右にpaddingを15pxずつ追加してください */
+  padding: 0 15px;
+  
 }
 
 .item-box {
@@ -29,16 +37,13 @@
 }
 
 /* タブレット向けレイアウト */
-/* ブレイクポイントをmax-width: 1000pxに指定してください */
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
   .item {
     width: 50%;
   }
 }
 
-
 /* スマートフォン向けレイアウト */
-/* ブレイクポイントをmax-width: 670pxに指定してください */
 @media (max-width: 670px) {
   .item {
     width: 100%;
