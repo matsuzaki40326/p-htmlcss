@@ -19,6 +19,7 @@ a {
 }
 
 /* ここからCSSを書いていきましょう */
+
 .top {
   background-image: url(https://prog-8.com/images/html/advanced/top.png);
   background-size: cover;
@@ -77,4 +78,38 @@ a {
 
 .mt {
   margin-top: 30px;
+}
+
+header {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.header-c {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.headerlink {
+  float: right;
+}
+
+header a {
+  padding: 25px;
+  line-height: 65px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  transition: all 0.5s;
+}
+
+header a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
