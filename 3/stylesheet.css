@@ -1,8 +1,6 @@
-/* すべての要素に対してbox-sizingをborder-boxとしてください */
 * {
   box-sizing: border-box;
 }
-
 
 body {
   margin: 0;
@@ -13,8 +11,13 @@ a {
   text-decoration: none;
 }
 
+/* clearクラスにfloatを解除するためのCSSを記述してください */
+.clear {
+  clear: left;
+}
+
+
 .container {
-  /* widthを100%にしてください */
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -114,7 +117,7 @@ header {
 }
 
 .lesson-wrapper {
-  height: 580px;
+  /* heightを削除してください */
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
