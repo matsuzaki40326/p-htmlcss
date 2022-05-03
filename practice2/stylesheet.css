@@ -88,7 +88,7 @@ header {
   width: 100%;
 }
 
-.header-c {
+.box {
   width: 1170px;
   margin: 0 auto;
 }
@@ -112,4 +112,38 @@ header a {
 
 header a:hover {
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contents {
+  height: 580px;
+  background-color: #f7f7f7;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.contents h2 {
+  font-weight: normal;
+  color: #5f5d60;
+  margin-bottom: 50px;
+}
+
+.content {
+  width: 25%;
+  float: left;
+  position: relative;
+}
+
+.language {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.caption {
+  color: #b3aeb5;
+  font-size: 13px;
+  margin-top: 15px;
+  width: 80%;
+  display: inline-block;
 }
