@@ -201,3 +201,7 @@ footer {
   display: none;
   float: right;
 }
+
+.clear {
+  clear: left;
+}

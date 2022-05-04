@@ -3,6 +3,13 @@
   .top-wrapper h1 {
     font-size: 32px;
   }
+  .heading h2 {
+    font-size: 20px;
+  }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
 }
 
 /* モバイル向けレイアウト */
@@ -29,5 +36,8 @@
   }
   .facebook {
     margin-bottom: 10px;
+  }
+  .lesson {
+    width: 100%;
   }
 }
