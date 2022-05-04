@@ -10,6 +10,9 @@
     width: 50%;
     margin-bottom: 50px;
   }
+  footer {
+    text-align: center;
+  }
 }
 
 /* モバイル向けレイアウト */
@@ -38,6 +41,9 @@
     margin-bottom: 10px;
   }
   .lesson {
+    width: 100%;
+  }
+  .message {
     width: 100%;
   }
 }
